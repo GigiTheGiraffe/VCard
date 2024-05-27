@@ -12,6 +12,7 @@ body {
     background: linear-gradient(156deg, #1ac304, #0000E0);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -37,14 +38,14 @@ a, a:hover, a:visited {
 
 
 main {
-    margin: auto;
-    width: 98%;
-    height: auto;
-    text-align: center;
+    width: 100%;
     height: 100%;
     padding: 0%;
     margin: 0%;
     text-align: center;
+    max-width: 1800px;
+    min-height: 400px;
+    justify-content: center;
 }
 
 
@@ -69,7 +70,7 @@ h1 {
     font-size: 3em;
 }
 
-h3 {
+h2 {
     font-size: 2em;
     position: relative;
     text-transform: uppercase;
@@ -77,8 +78,21 @@ h3 {
 }
 
 p {
-    font-size: 1.4em;
-    line-height: 2em;
+    font-size: 1em;
+    line-height: 1.5em;
+    align-self: center;
+    word-break: break-all;
+    justify-content: center;
+}
+
+main article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 98%;
+    align-self: center;
+    justify-content: center;
+    margin: auto;
 }
 
 h4 {
